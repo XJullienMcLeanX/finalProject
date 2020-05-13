@@ -85,7 +85,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-about"]],
       decls: 49,
       vars: 0,
-      consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "/assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "./assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "./assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]],
+      consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "./assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "./assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "./assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]],
       template: function AboutComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
