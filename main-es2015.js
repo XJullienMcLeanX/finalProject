@@ -538,7 +538,7 @@ class FlavorsComponent {
     }
 }
 FlavorsComponent.ɵfac = function FlavorsComponent_Factory(t) { return new (t || FlavorsComponent)(); };
-FlavorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlavorsComponent, selectors: [["app-flavors"]], decls: 12, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]], template: function FlavorsComponent_Template(rf, ctx) { if (rf & 1) {
+FlavorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlavorsComponent, selectors: [["app-flavors"]], decls: 12, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "/assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]], template: function FlavorsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
