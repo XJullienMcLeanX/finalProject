@@ -43,7 +43,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 49, vars: 0, consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "/assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "/assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "/assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 49, vars: 0, consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "/assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "./assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "./assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Our Team");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -538,7 +538,7 @@ class FlavorsComponent {
     }
 }
 FlavorsComponent.ɵfac = function FlavorsComponent_Factory(t) { return new (t || FlavorsComponent)(); };
-FlavorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlavorsComponent, selectors: [["app-flavors"]], decls: 12, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "/assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]], template: function FlavorsComponent_Template(rf, ctx) { if (rf & 1) {
+FlavorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlavorsComponent, selectors: [["app-flavors"]], decls: 12, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "./assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]], template: function FlavorsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div");
@@ -655,7 +655,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 14, vars: 0, consts: [["type", "button", "routerLink", "/flavors", 1, "btn", "btn-light"], ["src", "/assets/homeImage1.jpg", "alt", "Ice Cream", "height", "350", "width", "550"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 14, vars: 0, consts: [["type", "button", "routerLink", "/flavors", 1, "btn", "btn-light"], ["src", "./assets/homeImage1.jpg", "alt", "Ice Cream", "height", "350", "width", "550"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Ice Cream King");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -707,7 +707,7 @@ class LandingPageComponent {
     }
 }
 LandingPageComponent.ɵfac = function LandingPageComponent_Factory(t) { return new (t || LandingPageComponent)(); };
-LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingPageComponent, selectors: [["app-landing-page"]], decls: 2, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], ["src", "/assets/homeImage2.jpg", "alt", "All Our Flavors"]], template: function LandingPageComponent_Template(rf, ctx) { if (rf & 1) {
+LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingPageComponent, selectors: [["app-landing-page"]], decls: 2, vars: 0, consts: [["alt", "Ice Cream", 1, "backgroundImage"], ["src", "./assets/homeImage2.jpg", "alt", "All Our Flavors"]], template: function LandingPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

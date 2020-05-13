@@ -85,7 +85,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-about"]],
       decls: 49,
       vars: 0,
-      consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "/assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "/assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "/assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]],
+      consts: [[2, "text-align", "center"], [1, "row"], [1, "column"], [1, "card"], ["src", "/assets/guy_with_cone.jpg", "alt", "John", 2, "width", "100%"], [1, "container"], [1, "title"], [1, "button"], ["src", "./assets/girl_with_cone.jpg", "alt", "Jane", 2, "width", "100%"], ["src", "./assets/cone_guy.jpg", "alt", "Mike", 2, "width", "100%"]],
       template: function AboutComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
@@ -1097,7 +1097,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-flavors"]],
       decls: 12,
       vars: 0,
-      consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "/assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]],
+      consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "./assets/icecream1.jpg", "alt", "Our First Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream2.jpg", "alt", "Our Second Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "Our Third Flavor", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "Our Last Flavor", "height", "250", "width", "250"]],
       template: function FlavorsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1345,7 +1345,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-home"]],
       decls: 14,
       vars: 0,
-      consts: [["type", "button", "routerLink", "/flavors", 1, "btn", "btn-light"], ["src", "/assets/homeImage1.jpg", "alt", "Ice Cream", "height", "350", "width", "550"]],
+      consts: [["type", "button", "routerLink", "/flavors", 1, "btn", "btn-light"], ["src", "./assets/homeImage1.jpg", "alt", "Ice Cream", "height", "350", "width", "550"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
@@ -1456,7 +1456,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-landing-page"]],
       decls: 2,
       vars: 0,
-      consts: [["alt", "Ice Cream", 1, "backgroundImage"], ["src", "/assets/homeImage2.jpg", "alt", "All Our Flavors"]],
+      consts: [["alt", "Ice Cream", 1, "backgroundImage"], ["src", "./assets/homeImage2.jpg", "alt", "All Our Flavors"]],
       template: function LandingPageComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
