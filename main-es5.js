@@ -1097,7 +1097,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-flavors"]],
       decls: 12,
       vars: 0,
-      consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "./assets/icecream1.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream2.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"]],
+      consts: [["alt", "Ice Cream", 1, "backgroundImage"], [1, "flexbox"], ["src", "assets/icecream1.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream2.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream3.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"], ["src", "./assets/icecream4.jpg", "alt", "All Our Flavors", "height", "250", "width", "250"]],
       template: function FlavorsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
